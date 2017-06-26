@@ -55,7 +55,6 @@ cask '1password'
 cask 'cleanmymac'
 cask 'dropbox'
 cask 'firefox'
-cask 'franz'
 cask 'google-chrome'
 cask 'google-drive'
 cask 'gpgtools'
@@ -77,3 +76,9 @@ cask 'keybase'
 
 mas 'Xcode', id: 497799835
 mas 'Harvest', id: 506189836
+mas 'CheatSheet', id: 529456740
+mas 'Caffeine', id: 411246225
+mas '1Password', id: 443987910
+mas 'Divvy', id: 413857545
+mas 'iA Writer', id: 775737590
+mas 'Bear', id: 1091189122

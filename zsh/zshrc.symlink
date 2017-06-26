@@ -48,4 +48,4 @@ ssh-add
 eval $(cachalot env)
 
 # Path to WP_I18N_LIB
-export WP_I18N_LIB="/Users/paschi/Development/tools/wpi18n"
+export WP_I18N_LIB="/Users/$(whoami)/Development/tools/wpi18n"
