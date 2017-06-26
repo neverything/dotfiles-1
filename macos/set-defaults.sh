@@ -110,7 +110,7 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 defaults write com.apple.screencapture type -string "png"
 
 # Save screenshots to the downlaods.
-defaults write com.apple.screencapture location "$HOME/Downloads/"
+defaults write com.apple.screencapture location "$HOME/Dropbox/Screenshots/"
 
 ###############################################################################
 # Finder                                                                      #
