@@ -30,12 +30,6 @@ defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
 # Stop iTunes from responding to the keyboard media keys
 launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
 
-# Locale settings
-defaults write NSGlobalDomain AppleLanguages -array "en" "dech"
-defaults write NSGlobalDomain AppleLocale -string "en_US@currency=CHF"
-defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
-defaults write NSGlobalDomain AppleMetricUnits -bool true
-
 # 24-Hour Time
 defaults write NSGlobalDomain AppleICUForce12HourTime -bool false
 
