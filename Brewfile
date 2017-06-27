@@ -75,6 +75,10 @@ cask 'vlc'
 cask 'keybase'
 cask 'bartender'
 cask 'alfred'
+cask 'visual-studio-code'
+cask 'flux'
+cask 'coconutbattery'
+cask 'firefox'
 
 mas 'Xcode', id: 497799835
 mas 'Harvest', id: 506189836
@@ -84,3 +88,10 @@ mas '1Password', id: 443987910
 mas 'Divvy', id: 413857545
 mas 'iA Writer', id: 775737590
 mas 'Bear', id: 1091189122
+mas 'The Unarchiver', id: 425424353
+mas 'Things3', id: 904280696
+mas 'Pixelmator', id: 407963104
+mas 'iPhoto', id: 408981381
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
+mas 'iMovie', id: 408981434
