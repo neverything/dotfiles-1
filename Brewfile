@@ -75,10 +75,9 @@ cask 'vlc'
 cask 'bartender'
 cask 'alfred'
 cask 'visual-studio-code'
-cask 'flux'
 cask 'coconutbattery'
-cask 'firefox'
 cask 'atom'
+cask 'telegram'
 
 mas 'Xcode', id: 497799835
 mas 'Harvest', id: 506189836
