@@ -502,21 +502,3 @@ defaults write com.google.Chrome.canary DisablePrintPreview -bool true
 # Expand the print dialog by default
 defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true
-
-################################################
-# f.lux
-################################################
-echo "Setting f.lux preferences"
-FLUX_DOMAIN="org.herf.Flux"
-# Location, center of Thalwil, Zurich, Switzerland
-defaults write "${FLUX_DOMAIN}" location "47.2894,8.56708"
-defaults write "${FLUX_DOMAIN}" locationTextField "Zürich, Switzerland"
-defaults write "${FLUX_DOMAIN}" locationType "L"
-# Sunset temperature
-defaults write "${FLUX_DOMAIN}" lateColorTemp -int 4000
-# Bedtime temperature
-defaults write "${FLUX_DOMAIN}" nightColorTemp -int 2000
-# Wake up at 7.00
-defaults write "${FLUX_DOMAIN}" wakeTime -int 420
-# Sleep late on weekends
-defaults write "${FLUX_DOMAIN}" sleepLate -bool true
