@@ -44,6 +44,7 @@ autoload -U promptinit; promptinit
 prompt pure
 export GOPATH=/usr/local/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+export PATH=$PATH:~/.composer/vendor/bin
 alias ssh='assh wrapper ssh'
 
 ssh-add
