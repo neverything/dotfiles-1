@@ -1,0 +1,8 @@
+# Usage: take <dirname>
+# Description: creates and cds into the dirname
+#
+# credit: https://github.com/robbyrussell/oh-my-zsh/blob/2a6c40f/lib/functions.zsh#L13
+function take() {
+  mkdir -p $1
+  cd $1
+}
