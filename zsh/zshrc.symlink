@@ -45,7 +45,5 @@ alias ssh='assh wrapper ssh'
 
 ssh-add
 
-eval $(cachalot env)
-
 # Path to WP_I18N_LIB
 export WP_I18N_LIB="/Users/$(whoami)/Development/tools/wpi18n"
