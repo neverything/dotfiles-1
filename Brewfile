@@ -97,3 +97,4 @@ mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'iMovie', id: 408981434
 mas 'Twitter', id: 409789998
+mas 'CleanMyDrive 2: Manage and Clean External Drives', id: 523620159
