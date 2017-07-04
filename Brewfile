@@ -78,6 +78,7 @@ cask 'visual-studio-code'
 cask 'coconutbattery'
 cask 'atom'
 cask 'telegram'
+cask 'whatsapp'
 
 mas 'Xcode', id: 497799835
 mas 'Harvest', id: 506189836
