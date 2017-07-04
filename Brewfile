@@ -79,6 +79,7 @@ cask 'visual-studio-code'
 cask 'flux'
 cask 'coconutbattery'
 cask 'firefox'
+cask 'atom'
 
 mas 'Xcode', id: 497799835
 mas 'Harvest', id: 506189836
@@ -95,3 +96,4 @@ mas 'iPhoto', id: 408981381
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'iMovie', id: 408981434
+mas 'Twitter', id: 409789998
