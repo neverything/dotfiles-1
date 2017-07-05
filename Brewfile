@@ -51,6 +51,7 @@ brew 'homebrew/php/php70-imagick'
 brew 'homebrew/php/php70-xdebug'
 brew 'homebrew/php/php71'
 
+cask 'spotify'
 cask '1password'
 cask 'cleanmymac'
 cask 'dropbox'
