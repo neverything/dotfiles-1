@@ -24,6 +24,8 @@ sudo nvram SystemAudioVolume=" "
 # General UI/UX                                                               #
 ###############################################################################
 
+echo "Setting general preferences"
+
 # Save to disk (not to iCloud) by default
 defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
 
@@ -71,6 +73,8 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 # SSD-specific tweaks                                                         #
 ###############################################################################
 
+echo "Setting SSD-specific preferences"
+
 # Disable hibernation (speeds up entering sleep mode)
 sudo pmset -a hibernatemode 0
 
@@ -87,6 +91,8 @@ sudo pmset -a sms 0
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
+
+echo "Setting Keyboard, Trackpad and Mouse preferences"
 
 # Trackpad: enable tap to click for this user and for the login screen
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
@@ -117,6 +123,8 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 # Screen                                                                      #
 ###############################################################################
 
+echo "Setting Screenshot and Screen preferences"
+
 # Require password immediately after sleep or screen saver begins
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
@@ -131,6 +139,8 @@ defaults write com.apple.screencapture location "$HOME/Dropbox/Screenshots/"
 # Finder                                                                      #
 ###############################################################################
 
+echo "Setting Finder preferences"
+
 # Set Desktop as the default location for new Finder windows
 # For other paths, use `PfLo` and `file:///full/path/here/`
 defaults write com.apple.finder NewWindowTarget -string "PfDe"
@@ -141,6 +151,9 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # Finder: show all files
 defaults write com.apple.finder AppleShowAllFiles -bool true
+
+# File dialog show all files
+defaults write -g AppleShowAllFiles -bool true
 
 # Disable the warning when changing a file extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
