@@ -80,6 +80,7 @@ cask 'coconutbattery'
 cask 'atom'
 cask 'telegram'
 cask 'whatsapp'
+cask 'iterm2'
 
 mas 'Xcode', id: 497799835
 mas 'Harvest', id: 506189836
