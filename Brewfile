@@ -81,6 +81,7 @@ cask 'atom'
 cask 'telegram'
 cask 'whatsapp'
 cask 'iterm2'
+cask 'xmind'
 
 mas 'Xcode', id: 497799835
 mas 'Harvest', id: 506189836
