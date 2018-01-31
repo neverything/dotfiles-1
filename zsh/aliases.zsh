@@ -7,4 +7,5 @@ alias composer='ssh -T git@github.com > /dev/null 2>&1 ; ssh -T git@bitbucket.or
 alias brewmaint='brew update && brew upgrade && brew cleanup && brew cask cleanup'
 alias appflowup='cd ~/.appflow/playbooks && vagrant up atlantis'
 alias appflowdown='cd ~/.appflow/playbooks && vagrant halt atlantis'
+alias appflowssh='cd ~/.appflow/playbooks && vagrant ssh atlantis'
 alias presence='_presence() { cd ~/Documents/webdev/development/$1; }; _presence'
