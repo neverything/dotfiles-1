@@ -123,6 +123,7 @@
     useConfigOnly = true
 	name = Silvan Hagen
 	email = neverything@gmail.com
+	signingkey = 311801D471B9A08B
 
 [include]
 	# use separate file for username / github token / etc.
