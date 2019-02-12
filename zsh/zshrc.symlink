@@ -1,6 +1,9 @@
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
 
+autoload -U promptinit; promptinit
+prompt pure
+
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
